@@ -36,7 +36,7 @@ users:
     department: DevOps
     group: Dept-DevOps
  
- - username: oktauser4
+  - username: oktauser4
     first_name: Okta
     last_name: User4
     job_title: Security Analyst
