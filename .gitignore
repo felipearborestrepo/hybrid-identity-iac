@@ -1,0 +1,17 @@
+# Terraform plugins, state and plans. State can contain secrets.
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+plan.txt
+crash.log
+crash.*.log
+
+# Your real values and secrets
+*.tfvars
+!*.tfvars.example
+.env
+
+# Zips and macOS clutter
+*.zip
+.DS_Store

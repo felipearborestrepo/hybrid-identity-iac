@@ -1,0 +1,35 @@
+# Single source of truth for the lab's identities.
+# Add, change, or remove a person here, run "terraform apply",
+# and Entra ID is updated to match.
+
+company: Okta
+
+groups:
+  - name: Dept-Analyst
+    description: Analyst department
+  - name: Dept-Engineering
+    description: Engineering department
+  - name: Dept-DevOps
+    description: DevOps department
+
+users:
+  - username: oktauser1
+    first_name: Okta
+    last_name: User1
+    job_title: Okta Analyst
+    department: Analyst
+    group: Dept-Analyst
+
+  - username: oktauser2
+    first_name: Okta
+    last_name: User2
+    job_title: Okta Engineer
+    department: Engineering
+    group: Dept-Engineering
+
+  - username: oktauser3
+    first_name: Okta
+    last_name: User3
+    job_title: Okta Developer
+    department: DevOps
+    group: Dept-DevOps

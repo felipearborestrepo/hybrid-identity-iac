@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is in .gitignore, so it is never committed.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+upn_suffix      = "yourtenant.onmicrosoft.com"
+
+# Optional overrides
+# location       = "eastus2"
+# enable_bastion = true

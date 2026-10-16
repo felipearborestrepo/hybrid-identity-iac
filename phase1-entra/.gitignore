@@ -1,0 +1,7 @@
+# Terraform state contains secrets (including the generated passwords). Never commit it.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.terraform.lock.hcl.bak

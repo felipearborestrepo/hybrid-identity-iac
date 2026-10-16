@@ -1,0 +1,9 @@
+# Terraform state and plugins. Never commit them.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+terraform.tfvars
+# Never commit API tokens
+.env
