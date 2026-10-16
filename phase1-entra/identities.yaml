@@ -11,6 +11,8 @@ groups:
     description: Engineering department
   - name: Dept-DevOps
     description: DevOps department
+  - name: Dept-Security
+    description: Security department
 
 users:
   - username: oktauser1
@@ -33,3 +35,10 @@ users:
     job_title: Okta Developer
     department: DevOps
     group: Dept-DevOps
+ 
+  - username: oktauser4
+    first_name: Okta
+    last_name: User4
+    job_title: Security Analyst
+    department: Security
+    group: Dept-Security
